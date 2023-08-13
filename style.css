@@ -333,3 +333,24 @@ footer .next_btn:hover {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+@media (max-width: 768px) {
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%; /* Adjust the width for mobile screens */
+    }
+    .info_box .info_title {
+        height: 120px;
+    }
+    
+    .buttons button.restart,
+    .buttons button.quit {
+        font-size: 13px;
+        margin: 0 5px;
+        height: 35px;
+        /* width: 120px; */
+     
+    }
+   
+}
